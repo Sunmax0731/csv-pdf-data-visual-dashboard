@@ -1,0 +1,21 @@
+{
+  "product": {
+    "repository": "csv-pdf-data-visual-dashboard",
+    "title": "CSV・PDF・データ可視化ダッシュボード"
+  },
+  "items": [
+    {
+      "id": "csv-pdf-data-visual-dashboard-happy",
+      "title": "CSV・PDF・データ可視化ダッシュボード happy",
+      "status": "ready",
+      "tags": [
+        "webapp"
+      ],
+      "dataPath": "samples/happy.csv",
+      "schema": "title,value,status",
+      "chartType": "bar",
+      "owner": "closed-alpha",
+      "sampleRows": "CSV・PDF・データ可視化ダッシュボード の確認観点"
+    }
+  ]
+}
