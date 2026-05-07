@@ -1,0 +1,32 @@
+export const productProfile = {
+  "repository": "csv-pdf-data-visual-dashboard",
+  "title": "CSV・PDF・データ可視化ダッシュボード",
+  "domain": "WebApp",
+  "hostApp": null,
+  "rank": 72,
+  "tier": "P2",
+  "ideaNo": 6,
+  "overview": "CSV、PDF、OCR結果をドラッグして表やグラフに整える。 入力、確認、履歴保存、次アクションを同じ作業単位で扱えるようにする。",
+  "problem": "軽いデータ確認のために専用ツールを行き来する。",
+  "differentiation": "一時分析と保存済みレポートを分けて扱う。",
+  "publish": "GitHub Pages / GitHub Release",
+  "surface": "Static WebApp + CLI validation core",
+  "entity": "visualization dataset",
+  "requiredFields": [
+    "id",
+    "title",
+    "dataPath",
+    "schema",
+    "chartType",
+    "owner"
+  ],
+  "warningField": "sampleRows",
+  "qcdsManualTestCap": "S-",
+  "qcdsTarget": "A-",
+  "benchmarkRepos": [
+    "Sunmax0731/project-portfolio-generator",
+    "Sunmax0731/release-output-check-flow",
+    "Sunmax0731/movie-telop-transcriber",
+    "Sunmax0731/codex-remote-android"
+  ]
+};
