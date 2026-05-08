@@ -1,0 +1,13 @@
+{
+  "product": "csv-pdf-data-visual-dashboard",
+  "title": "CSV・PDF・データ可視化ダッシュボード",
+  "domain": "WebApp",
+  "ideaNo": 6,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
